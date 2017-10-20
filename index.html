@@ -30,7 +30,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				sectionsColor: ['#000000', '#000000', '#000000','#000000', '#000000', '  #000000','000000', '#000000'],
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE','#1bbc9b', '#4BBFC3', '  #000000','whitesmoke', '#ccddff'],
 				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thpage','lastPage'],
 				menu: '#menu',
 
@@ -60,11 +60,13 @@
 </ul>
 
 <div id="fullpage">
+
 	<div class="section" id="section0">
 		<h1>fMEMBER INFO</h1>
 		<p>ACHA BANANA</p>
 		<img src="imgs/fullPage.png" alt="fullPage" />
 	</div>
+
 	<div class="section" id="section1">
 		<div class="intro">
 			<img src="imgs/1.png" alt="Cool" />
@@ -73,34 +75,48 @@
 			<p>YINSTITUTE<a href="http://jqueryui.com/resources/demos/effect/easing.html" target="_blank">here</a></p>
 		</div>
 	</div>
+
 	<div class="section active" id="section2"> <!--landing page -->
 		<div class="intro">
 			<h1>VIRTUOSI</h1>
 			<p>make some cool one liners about us. background add karo.s</p>
 		</div>
 	</div>
+
 	<div class="section" id="section3">
-		<div class="intro">
+		<div>
 			<h1>EVENTS</h1>
-			<p>DAAL DO Saare</p>
+		</div>
+		<div class="intro" class="ev">
+			<img src="../img/1.jpg" id="ev1">
+			<img src="../img/2.jpg" id="ev2">
+			<img src="../img/3.jpg" id="ev3">
+			<img src="../img/4.jpg" id="ev4">
+			<img src="../img/5.jpg" id="ev5">			
 		</div>
 	</div>
+
 	<div class="section" id="section4">
 		<div class="intro">
-			<div class="slide" id="slide1"><h1>Slide Backgrounds</h1></div>
-			<div class="slide" id="slide2"><h1>Totally customizable</h1></div>
+			<div class="slide" id="slide1"></div>
+			<div class="slide" id="slide2"></div>
+			<div class="slide" id="slide3"></h1></div>
+			<div class="slide" id="slide4"></div>
 		</div>
 	</div>
+
 	<div class="section" id="section5">
 		<div class="intro">
-			<h1>SUPPORT</h1>
-			<!-- Add font awesome icons -->
-			<a href="#" class="fa fa-facebook"></a>
+			<h2>SUPPORT</h2>
+			<!-- Add font awesome icons-->
+			<a href="https://www.facebook.com/profile.php?id=259323190763749&ref=br_rs" class="fa fa-facebook"></a>
 			<a href="#" class="fa fa-google"></a>
-			<a href="#" class="fa fa-flickr"></a>
+			<a href="https://www.flickr.com/photos/ams_iiita/albums" class="fa fa-flickr"></a>
 		</div>
 		<div id="mail" style="color: white">virtuosi.society@iiita.ac.in</div>
+		<div id="foot">©- VIRTUOSI - All Rights Reserved</div>
 	</div>
+
 </div>
 
 
