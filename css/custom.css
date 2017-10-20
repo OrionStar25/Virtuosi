@@ -17,6 +17,21 @@
 		padding-top: 150px;
 	}
 
+	h3 {
+		font-size: 3em;
+		font-family: arial,helvetica;
+		text-align: center;
+		color: #e4964c;
+		margin-bottom: 7%;
+	}
+
+	.des {
+		display: inline-block;
+		color: white;
+		font-size: 1em;
+		padding-bottom: 20px !important;
+	}
+
 	/* Centered texts in each section
 	* --------------------------------------- */
 	.section{
