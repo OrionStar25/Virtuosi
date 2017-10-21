@@ -28,7 +28,7 @@
 	.des {
 		display: inline-block;
 		color: white;
-		font-size: 1em;
+		font-size: 1.25em;
 		padding-bottom: 20px !important;
 	}
 
@@ -54,13 +54,13 @@
 	/* Defining each sectino background and styles
 	* --------------------------------------- */
 	#section0{
-		background-image: url(../img/bg3.jpg);
+		background-image: url(../img/bg3.jpeg);
 	}
-	#section0 h1{
+	/*#section0 h1{
 		top: 50%;
 		transform: translateY(-50%);
 		position: relative;
-	}
+	}*/
 	#section1{
 		background-image: url(../img/bg2.jpg);
 		padding: 6% 0 0 0;
@@ -185,7 +185,7 @@
 	font-family: Times New Roman;
 }
 
-img:hover {
+.image:hover {
   			animation: shake 0.5s;
   			animation-iteration-count: infinite;
 			}
