@@ -1,115 +1,109 @@
 /* Style for our header texts
 	* --------------------------------------- */
-	h1{
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		text-align: right;
-		margin-bottom: 60%;
-		padding:0;
-	}
+h1{
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	text-align: right;
+	margin-bottom: 60%;
+	padding:0;
+}
 
-	h2 {
-		font-size: 5em;
-		font-family: arial,helvetica;
-		color: #fff;
-		margin: 0;
-		padding-top: 150px;
-	}
+h2 {
+	font-size: 5em;
+	font-family: arial,helvetica;
+	color: #fff;
+	margin: 0;
+	padding-top: 150px;
+}
 
-	h3 {
-		font-size: 3em;
-		font-family: arial,helvetica;
-		text-align: center;
-		color: #e4964c;
-		margin-bottom: 7%;
-	}
+h3 {
+	font-size: 3em;
+	font-family: arial,helvetica;
+	text-align: center;
+	color: #e4964c;
+	margin-bottom: 7%;
+}
 
-	.des {
-		display: inline-block;
-		color: white;
-		font-size: 1.25em;
-		padding-bottom: 20px !important;
-	}
+.des {
+	display: inline-block;
+	color: white;
+	font-size: 1.25em;
+	padding-bottom: 20px !important;
+}
 
-	/* Centered texts in each section
+/* Centered texts in each section
 	* --------------------------------------- */
-	.section{
-		text-align:center;
-	}
+.section{
+	text-align:center;
+}
 
-
-	/* Backgrounds will cover all the section
+/* Backgrounds will cover all the section
 	* --------------------------------------- */
-	#section0,
-	#section1,
-	#section2,
-	#section3,
-	#section4,
-	#section5{
-		background-size: cover;
-		background-attachment: fixed;
-	}
+#section0,
+#section1,
+#section2,
+#section3,
+#section4,
+#section5{
+	background-size: cover;
+	background-attachment: fixed;
+}
 
-	/* Defining each sectino background and styles
-	* --------------------------------------- */
-	#section0{
-		background-image: url(../img/bg3.jpeg);
-	}
-	/*#section0 h1{
-		top: 50%;
-		transform: translateY(-50%);
-		position: relative;
-	}*/
-	#section1{
-		background-image: url(../img/bg2.jpeg);
-		padding: 6% 0 0 0;
-	}
-	#section2{
-		background-image: url(../img/bg1.jpg);
-		padding: 6% 0 0 0;
-	}
-	#section3{
-		background-image: url(../img/bg2.jpeg);
-		padding: 6% 0 0 0;
-	}
-	#section3 h1{
-		color:  #e4964c ;
-		text-align: center;
-		font-size: 4em;
-		vertical-align: text-top;
-		padding-bottom: 20px;
-		margin: 0;
-		/*padding-bottom: 80px;*/
-	}
+/* Defining each section background and styles
+* --------------------------------------- */
+#section0{
+	background-image: url(../img/bg3.jpg);
+}
+#section1{
+	background-image: url(../img/bg2.jpg);
+	padding: 6% 0 0 0;
+}
+#section2{
+	background-image: url(../img/bg1.jpg);
+	padding: 6% 0 0 0;
+}
+#section3{
+	background-image: url(../img/bg2.jpg);
+	padding: 6% 0 0 0;
+}
+#section3 h1{
+	color:  #e4964c ;
+	text-align: center;
+	font-size: 4em;
+	vertical-align: text-top;
+	padding-bottom: 20px;
+	margin: 0;
+}
 
 
-	/*Adding background for the slides
-	* --------------------------------------- */
-	#slide1{
-		background-image: url(../img/img.jpg);
-		padding: 6% 0 0 0;
-	}
-	#slide2{
-		background-image: url(../img/img1.jpg);
-		padding: 6% 0 0 0;
-	}
-	#slide3{
-		background-image: url(../img/img2.jpg);
-		padding: 6% 0 0 0;
-	}
-	#slide4{
-		background-image: url(../img/img3.jpg);
-		padding: 6% 0 0 0;
-	}
+/*Adding background for the slides
+* --------------------------------------- */
+#slide1{
+	background-image: url(../img/img.jpg);
+	padding: 6% 0 0 0;
+}
+#slide2{
+	background-image: url(../img/img1.jpg);
+	padding: 6% 0 0 0;
+}
+#slide3{
+	background-image: url(../img/img2.jpg);
+	padding: 6% 0 0 0;
+}
+#slide4{
+	background-image: url(../img/img3.jpg);
+	padding: 6% 0 0 0;
+}
 
-	/*Add events images*/
-	.ev{
-		overflow: hidden;
-		display: flex;
-		justify-content: space-around;
-		border: medium;
-	}
+/*Add events images*/
+/* --------------------------------------- */
+.ev{
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	border: medium;
+}
 
 #ev1 {
 	background-image: url('../img/1.jpg');
@@ -146,6 +140,8 @@
 	height: 200px;
 }	
 
+/*icons customization*/
+/* --------------------------------------- */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -186,20 +182,47 @@
 }
 
 .image:hover {
-  			animation: shake 0.5s;
-  			animation-iteration-count: infinite;
-			}
+  	animation: shake 0.5s;
+  	animation-iteration-count: infinite;
+}
 
+
+/*add shake property to event images*/
+/* --------------------------------------- */
 @keyframes shake {
-  			0% { transform: translate(1px, 1px) rotate(0deg); }
-  			10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  			20% { transform: translate(-3px, 0px) rotate(1deg); }
-  			30% { transform: translate(3px, 2px) rotate(0deg); }
-  			40% { transform: translate(1px, -1px) rotate(1deg); }
-  			50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  			60% { transform: translate(-3px, 1px) rotate(0deg); }
-  			70% { transform: translate(3px, 1px) rotate(-1deg); }
-  			80% { transform: translate(-1px, -1px) rotate(1deg); }
-  			90% { transform: translate(1px, 2px) rotate(0deg); }
-  			100% { transform: translate(1px, -2px) rotate(-1deg); }
-  		}
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+  	100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/*slideshow on landing page*/
+/* --------------------------------------- */
+#slideshow { 
+	color: white;
+    margin-bottom: 50%;
+    margin-right: 50%;
+    margin-left: 25%; 
+    position: relative; 
+    width: 700px; 
+    height: 50px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    font-size: 35px;
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}

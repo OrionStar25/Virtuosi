@@ -18,6 +18,7 @@
 
 .info h5 {
   padding: 0;
+  color: white;
   margin: 0;
   line-height: 1em;
   opacity: 1;
@@ -29,6 +30,7 @@
 
 .info h6 {
   padding:0;
+  color: black;
   font-size:12px;
   margin:0 0 0 3px;
   line-height:1em;
@@ -49,7 +51,7 @@
   width:100%;
   left:0;
   top:-100%;
-  background: #b845a3;
+  background: #b9a7b6 ;
 }
 
 .info_reveal h6 {
