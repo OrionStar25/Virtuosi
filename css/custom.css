@@ -18,7 +18,7 @@ h2 {
 	font-family: arial,helvetica;
 	color: #fff;
 	margin: 0;
-	padding-top: 150px;
+	/*padding-top: 150px;*/
 }
 
 h3 {
@@ -26,14 +26,15 @@ h3 {
 	font-family: arial,helvetica;
 	text-align: center;
 	color: #e4964c;
-	margin-bottom: 7%;
+	/*margin-bottom: 7%;*/
 }
 
 .des {
 	display: inline-block;
 	color: white;
 	font-size: 1.25em;
-	padding-bottom: 20px !important;
+	padding-top: 20px !important;
+	padding-bottom: 50px !important;
 }
 
 /* Centered texts in each section
@@ -57,21 +58,15 @@ h3 {
 /* Defining each section background and styles
 * --------------------------------------- */
 #section0{
-	background-image: url(../img/bg3.jpg);
+	background-image: url(../img/bg1.jpg);
 }
 #section1{
 	background-image: url(../img/bg2.jpg);
-	padding: 6% 0 0 0;
 }
 #section2{
-	background-image: url(../img/bg1.jpg);
-	padding: 6% 0 0 0;
-}
-#section3{
 	background-image: url(../img/bg2.jpg);
-	padding: 6% 0 0 0;
 }
-#section3 h1{
+#section2 h1{
 	color:  #e4964c ;
 	text-align: center;
 	font-size: 4em;
@@ -79,25 +74,52 @@ h3 {
 	padding-bottom: 20px;
 	margin: 0;
 }
+#section3{
+	background-image: url(../img/bg3.jpg);
+}
+#section3 h3{
+	color:  #e4964c ;
+	text-align: center;
+	font-size: 4em;
+	padding-bottom: 20px;
+	margin:0;
+	top: 10px;
+}
 
 
 /*Adding background for the slides
 * --------------------------------------- */
 #slide1{
 	background-image: url(../img/img.jpg);
-	padding: 6% 0 0 0;
+	background-size: cover;
 }
 #slide2{
 	background-image: url(../img/img1.jpg);
-	padding: 6% 0 0 0;
+	background-size: cover;
 }
 #slide3{
 	background-image: url(../img/img2.jpg);
-	padding: 6% 0 0 0;
+	background-size: cover;
 }
 #slide4{
 	background-image: url(../img/img3.jpg);
-	padding: 6% 0 0 0;
+	background-size: cover;
+}
+#slide5{
+	background-image: url(../img/img4.jpg);
+	background-size: cover;
+}
+#slide6{
+	background-image: url(../img/img5.jpg);
+	background-size: cover;
+}
+#slide7{
+	background-image: url(../img/img6.jpg);
+	background-size: cover;
+}
+#slide8{
+	background-image: url(../img/img7.jpg);
+	background-size: cover;
 }
 
 /*Add events images*/
@@ -211,7 +233,7 @@ h3 {
 /* --------------------------------------- */
 #slideshow { 
 	color: white;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
     margin-right: 50%;
     margin-left: 25%; 
     position: relative; 
