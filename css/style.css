@@ -2,7 +2,8 @@
   width:100%;
   position:relative;
   overflow:hidden;
-  height:225px;
+  height:300px;
+  border-radius: 5%;
 }
 
 .info {
@@ -10,7 +11,7 @@
 }
 
 .info img {
-  width:80%;
+  width:90%;
   transition: all .4s ease-out .1s;
    -moz-transition: all .4s ease-out .1s;
    -webkit-transition: all .4s ease-out .1s;
@@ -82,7 +83,8 @@
 
 
 .responsive_grid {
- display:block;
+ display:flex;
+ justify-content: space-around;
  margin:0;
  padding:0;
  list-style:none;
@@ -95,7 +97,8 @@
  display:block;
  height:auto;
  float:left;
- margin-bottom:10px;
+  margin-bottom:10px;
+
 }
 
 .responsive_grid li:hover .info_reveal,
@@ -125,5 +128,4 @@
    -moz-transition: opacity .2s linear 0s;
    -webkit-transition: opacity .2s linear 0s;
 }
-
 
